@@ -1,0 +1,58 @@
+{
+  "source": "OpenStreetMap",
+  "license": "ODbL-1.0",
+  "attribution": "https://www.openstreetmap.org/copyright",
+  "retrievedAt": "2026-11-02T07:58:27.397Z",
+  "centers": [
+    {
+      "id": "way/439260578",
+      "osmType": "way",
+      "name": "بیمارستان آزادی",
+      "type": "hospital",
+      "latitude": 35.697084700000005,
+      "longitude": 51.3569257
+    },
+    {
+      "id": "way/439260579",
+      "osmType": "way",
+      "name": "بیمارستان روانپزشکی میمنت",
+      "type": "hospital",
+      "latitude": 35.6962286,
+      "longitude": 51.3569136
+    },
+    {
+      "id": "node/4731480122",
+      "osmType": "node",
+      "name": "درمانگاه یادگار",
+      "type": "clinic",
+      "latitude": 35.6985467,
+      "longitude": 51.3556031
+    },
+    {
+      "id": "way/438520347",
+      "osmType": "way",
+      "name": "بیمارستان رسول اکرم",
+      "type": "hospital",
+      "latitude": 35.7193411,
+      "longitude": 51.37042265,
+      "address": "نیایش"
+    },
+    {
+      "id": "way/191445129",
+      "osmType": "way",
+      "name": "مجتمع بیمارستانی امام خمینی",
+      "type": "hospital",
+      "latitude": 35.70782695,
+      "longitude": 51.38069385,
+      "address": "تهران، باقرخان شرقی"
+    },
+    {
+      "id": "way/671615919",
+      "osmType": "way",
+      "name": "بیمارستان جم",
+      "type": "hospital",
+      "latitude": 35.72292135,
+      "longitude": 51.42293015
+    }
+  ]
+}

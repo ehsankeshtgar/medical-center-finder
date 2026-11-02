@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Vazirmatn;
+  src: url("/fonts/Vazirmatn-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: url("/fonts/Vazirmatn-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --navy: #164a73;
+  --blue: #2676a8;
+  --muted: #64748b;
+  --surface: #f4f8fb;
+}
+
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: var(--surface);
+  color: #172b3a;
+  font-family: Vazirmatn, Tahoma, Arial, sans-serif;
+}
+button, input { font: inherit; }
+button { cursor: pointer; }
+.leaflet-container { width: 100%; height: 100%; z-index: 1; font-family: inherit; }
+.leaflet-control-attribution { direction: ltr; font-size: 10px !important; }
+.leaflet-popup-content { direction: rtl; text-align: right; font-family: inherit; }
